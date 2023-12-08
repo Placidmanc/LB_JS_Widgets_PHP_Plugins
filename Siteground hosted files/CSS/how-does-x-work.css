@@ -1,0 +1,319 @@
+.howdoesxwork-wrapper {
+	max-width: 1140px;
+}
+
+.howdoesxwork-wrapper .split-header {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.howdoesxwork-wrapper .split-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.howdoesxwork-wrapper .split-lh {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-right: 100px;
+	min-width: 373px;
+	max-height: 400px;
+	overflow-y: auto;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.howdoesxwork-wrapper .split-rh {
+	display: flex;
+}
+
+.howdoesxwork-wrapper .hdiw-split-btn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+	padding: 11px 11px 0;
+	width: 336px;
+	border-radius: 36px;
+	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15);
+	gap: 26px;
+	cursor: pointer;
+	margin-bottom: 26px;
+	max-height: 60px;
+	transition: all 0.15s ease-in-out;
+}
+
+.howdoesxwork-wrapper .hdiw-split-btn h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 24px;
+	color: white;
+	background-color: #cc4877;
+	border-radius: 50%;
+	width: 39px;
+	height: 39px;
+	min-width: 39px;
+	text-align: center;
+}
+
+.howdoesxwork-wrapper .hdiw-split-btn p {
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 24px;
+	color: #cc4877;
+	margin-top: 7px;
+}
+
+.howdoesxwork-wrapper .hdiw-small-para {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1.4px;
+	color: #808080;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.howdoesxwork-wrapper .hdiw-split-btn:hover {
+	background-color: #cc4877;
+}
+
+.howdoesxwork-wrapper .hdiw-split-btn:hover h2 {
+	background-color: white;
+	color: #cc4877;
+}
+
+.howdoesxwork-wrapper .hdiw-split-btn:hover p {
+	color: white;
+}
+
+.howdoesxwork-wrapper .splitBtnActive {
+	background-color: #cc4877 !important;
+	color: white !important;
+}
+
+.howdoesxwork-wrapper .splitBtnActive h2 {
+	background-color: white;
+	color: #cc4877;
+}
+
+.howdoesxwork-wrapper .splitBtnActive p {
+	color: white;
+}
+
+/* content */
+.howdoesxwork-wrapper .splitinfo-box {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	width: 100% !important;
+}
+
+.howdoesxwork-wrapper .splitinfo-box h3 {
+	font-size: 40px;
+	font-weight: 900;
+	color: #cc4877;
+	margin-top: -5px;
+	margin-bottom: -10px;
+}
+
+.howdoesxwork-wrapper .splitinfo-box p:not(.hdiw-small-para) {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #808080;
+}
+
+.howdoesxwork-wrapper .splitinfo-box p span.hdiw-small-para {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1.4px;
+	color: #808080;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.howdoesxwork-wrapper .splitinfo-box p span:not(hdiw-small-para) {
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 24px;
+	color: #03b5b8;
+}
+
+.howdoesxwork-wrapper .splitinfo-box h4 {
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 900;
+	line-height: 24px;
+	color: #03b5b8;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.howdoesxwork-wrapper ul:not(.wi-coloured-li) {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.howdoesxwork-wrapper ul:not(.wi-coloured-li) li {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #808080;
+}
+
+.howdoesxwork-wrapper ul.wi-coloured-li {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 1px;
+}
+
+.howdoesxwork-wrapper ul.wi-coloured-li li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1.6px;
+	color: #808080;
+	margin-bottom: 8px;
+	line-height: 14px;
+}
+
+.howdoesxwork-wrapper ul.wi-coloured-li li::before {
+	content: '';
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	background-color: var(--li-bg-colour, #7e668f);
+	margin-right: 21px;
+}
+
+.howdoesxwork-wrapper .read-more-box {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.howdoesxwork-wrapper .read-more-box a.read-more-btn {
+	font-size: 15px;
+	font-weight: 900;
+	line-height: 18px;
+	color: var(--e-global-color-primary);
+	background-color: var(--e-global-color-d2f5303);
+	border-radius: 18px 18px 18px 18px;
+	padding: 8px 30px 8px 30px;
+}
+
+.howdoesxwork-wrapper .read-more-box a.read-more-btn:hover {
+	background-color: var(--e-global-color-f937b58);
+}
+
+@media only screen and (max-width: 767px) {
+	.howdoesxwork-wrapper .split-wrapper {
+		padding: 0 5%;
+	}
+
+	.howdoesxwork-wrapper .split-lh {
+		margin-right: 30px;
+		max-height: 400px;
+		min-width: 60px;
+		padding-left: 10px;
+	}
+
+	.howdoesxwork-wrapper .hdiw-split-btn {
+		padding: 0;
+		min-width: 30px;
+		max-width: 30px;
+		max-height: 30px;
+		border-radius: 15px;
+		margin-bottom: 12px;
+	}
+
+	.howdoesxwork-wrapper .hdiw-split-btn h2 {
+		font-size: 20px !important;
+		width: 30px;
+		height: 30px;
+		min-width: 30px;
+		max-height: 30px;
+		margin-top: 8px;
+	}
+
+	.howdoesxwork-wrapper .hdiw-split-btn p:nth-child(2) {
+		display: none;
+	}
+
+	.howdoesxwork-wrapper .hdiw-split-btn p:nth-child(3) {
+		display: none;
+	}
+
+	.howdoesxwork-wrapper .splitBtnActive {
+		background-color: white !important;
+		color: white !important;
+	}
+
+	.howdoesxwork-wrapper .splitinfo-box h3 {
+		font-size: 18px;
+		letter-spacing: 0.9px;
+		margin-top: 0;
+	}
+
+	.howdoesxwork-wrapper .splitinfo-box p {
+		font-size: 14px;
+		letter-spacing: 1.4px;
+	}
+
+	.howdoesxwork-wrapper .splitinfo-box h4 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.howdoesxwork-wrapper .splitinfo-box ul li {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+	.howdoesxwork-wrapper .split-wrapper {
+		padding: 0 7%;
+	}
+
+	.howdoesxwork-wrapper .split-lh {
+		margin-right: 60px;
+		min-width: 280px;
+	}
+
+	.howdoesxwork-wrapper .hdiw-split-btn {
+		padding: 11px 11px 0;
+		min-width: 246px;
+		max-width: 246px;
+		gap: 9px;
+		margin-bottom: 20px;
+		max-height: 48px;
+	}
+
+	.howdoesxwork-wrapper .hdiw-split-btn h2 {
+		font-size: 18px;
+		line-height: 18px;
+		width: 30px;
+		height: 30px;
+		min-width: 30px;
+	}
+
+	.howdoesxwork-wrapper .hdiw-split-btn p {
+		font-size: 16px;
+		line-height: 19px;
+		margin-top: 7px;
+	}
+
+	.howdoesxwork-wrapper .splitinfo-box h3 {
+		font-size: 30px;
+		margin-top: 0;
+	}
+}
